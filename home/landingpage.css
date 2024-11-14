@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+    width: 100vw;
+}
+
+.landing img {
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -10;
+}
+
+
+/* Navbar Styles */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+.navbar {
+    padding: 15px 0;
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /* max-width: 1080px; */
+    /* margin: auto; */
+    gap: 10rem;
+    padding: 40px 40px;
+}
+
+.logo a {
+    color: white;
+    font-size: 1.5em;
+    text-decoration: none;
+    font-weight: bold;
+    justify-content: center;
+    padding: 60px 100px;
+    /* margin-left: 200px; */
+    display: flex;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 60px;
+    /* margin-top: -500px;
+    margin-left: 60px; */
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    transition: color 0.3s ease;
+    justify-content: center;
+}
+
+.nav-links li a:hover {
+    color: #ecf0f1; /* Change color on hover */
+}
+
+.btn-header{
+    padding: 60px;
+}
+
+.btn-group-hero{
+    margin-top: 40px;
+    display: flex;
+    gap: 10px;
+}
+
+.btn-header button{
+    padding: 10px 70px;
+    background-color: #ffffff; /* Button color */
+    color: blue;
+    border: #ecf0f1;
+    border-radius: 2px;
+    /* border-width: 3px; */
+    cursor: pointer;
+}
+
+.cta .login-btn {
+    padding: 10px 70px;
+    background-color: #ffffff; /* Button color */
+    color: white;
+    border: #ecf0f1;
+    border-radius: 2px;
+    /* border-width: 3px; */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    /* margin-left: 300px; */
+    color: rgb(0, 38, 255);
+    /* margin-top: -640px;
+    margin-left: -1025px; */
+}
+
+.cta .learn-btn {
+    padding: 8px 70px;
+    background-color: #0400ff; /* Button color */
+    color: rgb(255, 255, 255);
+    border-color: #ecf0f1;
+    border-radius: 2px;
+    border-width: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    /* margin-left: -750px;
+    margin-top: 640px; */
+}
+
+.cta .login-btn:hover {
+    background-color: #ffffff; /* Button hover color */
+}
+
+.text h1{
+    /* margin-top: 250px;
+    margin-left: -1025px; */
+    font-size: 50px;
+    color: #ecf0f1;
+
+}
+.text h2{
+    margin-top: 35px;
+    /*margin-left: -1025px; */
+    font-size: 16px;
+    font-weight: 800;
+    color: #ecf0f1;
+}
+.hero{
+    padding: 40px 40px;
+}
