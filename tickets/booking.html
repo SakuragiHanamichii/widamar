@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket Booking</title>
+    <link rel="stylesheet" href="booking.css">
+</head>
+<body>
+    <div class="sidebar">
+        <h1>WIDAMAR</h1>
+        <ul>
+            <li><a href="/home/landingpage.html"><img src="/imagesrc/Category.png" alt="Dashboard Icon">Dashboard</a></li>
+            <li><a href="user.html"><img src="/imagesrc/profileicon.png" alt="Users Icon">Users</a></li>
+            <li><a href="booking.html"><img src="/imagesrc/ticketstar.png" alt="Tickets Icon">Tickets</a></li>
+            <li><a href="admin.html"><img src="/imagesrc/profile2user.png" alt="Admin Icon">Admin</a></li>
+            <li><a href="#"><img src="/imagesrc/setting.png" alt="Settings Icon">Site Settings</a></li>
+        </ul>
+    </div>
+    
+
+    <div class="content">
+        <div class="navbar">
+            <span>Welcome! Ivan Nanda</span>
+            <div class="profile">
+                <img src="/imagesrc/profile.png" alt="User Profile">
+                <span>Nanda Ivan</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="box">
+                <div class="tabs">
+                    <button class="active">Pesan</button>
+                    <a href="history.html">
+                        <button class="active">Riwayat</button>
+                    </a>
+                </div>
+                <form>
+                    <div class="form-group">
+                        <div class="nama">
+                            <label for="name">Nama</label>
+                            <input type="text" id="name" placeholder="Nama Lengkap">
+                        </div>
+                        <div class="nomor">
+                            <label for="phone">No. Handphone</label>
+                            <input type="text" id="phone" placeholder="08xxx">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="tanggal">
+                            <label for="date">Tanggal Kunjungan</label>
+                            <input type="date" id="date">
+                        </div>
+                        <div>
+                            <label for="tickets">Jumlah Tiket</label>
+                            <div class="ticket-counter">
+                                <input type="number" id="tickets">
+                            </div>
+                            <small>Harga Tiket Masuk Rp5.000/org</small>
+                        </div>
+                    </div>
+
+                    <div class="payment-options">
+                        <p>Metode Pembayaran</p>
+                        <label>
+                            <input type="radio" name="payment" value="credit">
+                            <img src="/imagesrc/credit.png" alt="Credit Card"> Kartu Kredit
+                        </label>
+                        <label>
+                            <input type="radio" name="payment" value="qris">
+                            <img src="/imagesrc/qris.png" alt="QRIS"> QRIS
+                        </label>
+                    </div>
+
+                    <div class="tabs"></div>
+
+                    <div class="total">
+                        <p>Total (1 org):</p>
+                        <p> IDR 5.000</p>
+                    </div>
+                    <div class="btn-order">
+                        <a href="#">
+                            <button type="submit" class="submit">Pesan</button>
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

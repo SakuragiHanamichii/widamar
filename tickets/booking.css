@@ -1,0 +1,210 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Sidebar Styles */
+.sidebar {
+    width: 160px;
+    background-color: #0000ff;
+    height: 100vh;
+    position: fixed;
+    color: #fff;
+    padding: 25px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Jarak antara ikon dan teks */
+}
+
+.sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sidebar ul li a img {
+    width: 20px;
+    height: 20px;
+}
+
+
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f1f1f1;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.navbar .profile {
+    display: flex;
+    align-items: center;
+}
+
+.navbar img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+/* Content and Card Styles */
+.content {
+    margin-left: 250px;
+    padding: 30px;
+}
+
+.tiket{
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.card {
+    background-color: rgb(180, 180, 180);
+    margin-left: 250px;
+    margin-top: 40px;
+    border-radius: 20px;
+    width: 1123px;
+    height: 749px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    
+}
+
+.box {
+    width: 1047px;
+    height: 679px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 37px;
+}
+
+.tabs{
+    display: flex;
+    margin: 20px;
+    gap: 27px;
+    border-bottom: 3px solid #ddd;
+}
+
+.active{
+    height: 48px;
+    width: 104px;
+    border-radius: 20px;
+    align-self: flex-start ;
+    font-size: 24px;
+    color: #000000;    
+}
+
+.form-group {
+    padding: 10px;
+    display: flex;
+    gap:30px;
+}
+
+.form-group label{
+    font-size: 24px;
+    display: flex;
+}
+
+.form-group .nama input {
+    height: 40px;
+    width: 396px;
+}
+
+.form-group .tanggal input{
+    height: 40px;
+    width: 396px;
+}
+
+.form-group .ticket-counter input{
+    height: 40px;
+    width: 543px;
+}
+
+.form-group .nomor input {
+    height: 40px;
+    width: 543px;
+}
+
+.payment-options {
+    display: flex;
+    flex-direction: column;
+}
+
+.payment-options p {
+    font-size: 24px;
+    margin: 10px 0 0 10px;
+
+}
+
+.payment-options input{
+    margin-left: 22px;
+    justify-content: center;
+}
+
+.payment-options label{
+    gap: 10px;
+}
+
+.payment-options img{
+    margin-top: 10px;
+}
+
+.total {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.total p {
+    font-size: 24px;
+    margin: 10px 0 0 10px;
+    text-decoration: solid;
+
+}
+
+.btn-order {
+    display: flex;
+    justify-content: end;
+    padding: 0 30px 0;
+}
+
+.btn-order .submit {
+    background-color:  #0000ff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 46px;
+    width: 126px;
+}

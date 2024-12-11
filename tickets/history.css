@@ -1,0 +1,196 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Sidebar Styles */
+.sidebar {
+    width: 160px;
+    background-color: #0000ff;
+    height: 100vh;
+    position: fixed;
+    color: #fff;
+    padding: 25px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Jarak antara ikon dan teks */
+}
+
+.sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sidebar ul li a img {
+    width: 20px;
+    height: 20px;
+}
+
+
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f1f1f1;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.navbar .profile {
+    display: flex;
+    align-items: center;
+}
+
+.navbar img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+/* Content and Card Styles */
+.content {
+    margin-left: 250px;
+    padding: 30px;
+}
+
+.tiket{
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.card {
+    background-color: rgb(180, 180, 180);
+    margin-left: 250px;
+    margin-top: 20px;
+    border-radius: 20px;
+    width: 1123px;
+    height: 749px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    
+}
+.box{
+    display: flex;
+    flex-direction: column;
+}
+.btnbox{
+    display: flex;
+    margin: 20px;
+    gap: 27px;
+    border-bottom: 3px solid #ddd;
+}
+.active{
+    height: 48px;
+    width: 104px;
+    border-radius: 20px;
+    align-self: flex-start ;
+    font-size: 24px;
+    color: #000000;    
+}
+.active:hover {
+    background-color: #0011ff;
+}
+
+.active:active{
+    color: #ffffff;
+    background-color: #0033CF;
+}
+.content-box{
+    width: 1047px;
+    height: 679px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 37px;
+}
+.riwayattiket{
+    align-self: center;
+    border-radius: 20px;
+}
+
+.kodepemesanan{
+    background-color: #0033CF;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    width: 983px;
+    height: 44px;
+    border-radius: 20px 20px 0px 0px;    
+    margin-bottom: 10px;
+}
+.kodepemesanankiri{
+    display: flex;
+    gap: 5px;
+    margin-left: 10px;
+}
+.kodepemesanankanan{
+    margin: 10px;
+    background-color: #8EFF8E;
+    color: #00AD26;
+    border-radius: 10px;
+    width: 78px;
+    height: 28px;
+    text-align: center;
+}
+
+.kodepemesanankanan p{
+    margin: 5px;
+}
+
+.oo{
+    font-weight: bold;
+}
+.deskripsiriwayattiket{
+    display: flex;
+    justify-content: space-between;
+}
+.riwayattiketkiri{
+    font-size: 20px;
+    margin-left: 10px;
+}
+.riwayattiketkiri .titletiket{
+    font-weight: bolder;
+    font-size: 24px;
+    height: fit-content;
+}
+.riwayattiketkanan{
+    margin-top: 100px;
+    margin-right: 19px;
+    font-size: 20px;
+}
+.riwayattiketkanan .harga{
+    font-weight: bolder;
+    color: #0000ff;
+}
+.riwayattiket{
+    border: solid 2px #000000;
+}
