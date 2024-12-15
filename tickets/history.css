@@ -9,7 +9,7 @@ body {
 .sidebar {
     width: 160px;
     background-color: #0000ff;
-    height: 100vh;
+    height: 100%;
     position: fixed;
     color: #fff;
     padding: 25px 20px;
@@ -194,3 +194,55 @@ body {
 .riwayattiket{
     border: solid 2px #000000;
 }
+
+@media (max-width: 1080px) {
+    .sidebar {
+      width: 100px; /* Reduce sidebar width */
+      padding: 15px; /* Reduce padding for smaller screens */
+      height: 100%;
+    }
+  
+    .sidebar h1 {
+      font-size: 18px;
+    }
+  
+    .sidebar ul li a {
+      font-size: 14px; /* Adjust link text size */
+    }
+  
+    .content {
+      margin-left: 120px; /* Adjust content margin */
+      padding: 20px;
+    }
+  
+    .card {
+      margin-left: 120px; /* Match content adjustment */
+      width: 100%; /* Full width for smaller screens */
+      height: auto; /* Allow height to adjust */
+    }
+  
+    .btnbox {
+      flex-wrap: wrap; /* Wrap buttons for better layout */
+      gap: 10px;
+    }
+  
+    .content-box {
+      width: 50%;
+      margin: 20px 0; /* Reduce margin for smaller screens */
+    }
+  
+    .kodepemesanan {
+      width: 100%; /* Full width for smaller screens */
+    }
+  
+    .kodepemesanankanan {
+      font-size: 12px; /* Adjust badge size */
+      width: auto;
+      padding: 5px 10px;
+    }
+  
+    .riwayattiketkanan {
+      margin-top: 20px; /* Reduce margin */
+      font-size: 16px; /* Adjust font size */
+    }
+  }

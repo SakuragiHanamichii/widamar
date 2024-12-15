@@ -105,3 +105,14 @@ h2 {
 .make-akun a:hover {
     text-decoration: underline;
 }
+
+/* CSS Anda yang sudah ada */
+
+/* Media query untuk ukuran 476px */
+@media (min-width: 476px) and (max-width: 1640px){
+    body {
+        background-image: url(Login.jpg);
+        background-size: 100% 100%;
+        height: 1080px;
+      }
+  }
